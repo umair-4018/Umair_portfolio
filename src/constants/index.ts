@@ -25,12 +25,12 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kinectro,
+  bjs,
+  gorex,
+  influencifyImg,
+  gorexImg,
+  precurementImg,
   threejs,
 } from "../assets";
 
@@ -51,21 +51,21 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "FrontEnd Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies: TTechnology[] = [
@@ -105,10 +105,10 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -125,57 +125,45 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    companyName: "Kinectro",
+    icon: kinectro,
+    iconBg: "#ffffff",
+    date: "Feb 2022 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining full-stack web applications using MongoDB, Express.js, React.js, and Node.js (MERN).",
+      "Collaborating with cross-functional teams, including designers, product managers, and other developers, to build scalable and efficient applications.",
+      "Implementing responsive designs with React.js, ensuring cross-browser compatibility, and optimizing performance across the stack.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "React Js Developer",
+    companyName: "BJS Soft Solution Pvt Ltd - Secure Solution Providers",
+    icon: bjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2022 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using React.js and related technologies, such as Redux, React Router, and Material UI.",
+      "Collaborating with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and user-friendly interfaces.",
+      "Implementing responsive design principles with React, ensuring optimal performance and cross-browser compatibility.",
+      "Participating in code reviews, providing feedback to improve code quality, maintainability, and adherence to best practices in React.js development.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer",
+    companyName: "Go and Relax PVT LTD",
+    icon: gorex,
+    iconBg: "#ffffff",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using both frontend (React.js) and backend technologies (Node.js, Express.js) along with databases (MongoDB, SQL).",
+      "Collaborating with cross-functional teams, including designers, product managers, and backend/frontend developers, to build scalable and high-quality products.",
+      "Implementing responsive design on the frontend with React.js, ensuring seamless cross-browser compatibility, while optimizing backend performance and API integration.",
+      "Participating in full-stack code reviews, offering constructive feedback across both frontend and backend components to ensure robust, maintainable code and adherence to best practices.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials: TTestimonial[] = [
@@ -207,9 +195,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Influencify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed and optimized the Influencify platform, a marketplace that connects brands and influencers across social media platforms (Facebook, TikTok, YouTube, Instagram). The platform facilitates collaborations through an escrow payment system, ensuring secure transactions between brands and influencers. Focused on the frontend development, integrating APIs and improving user experience for seamless campaign management.",
     tags: [
       {
         name: "react",
@@ -224,49 +212,48 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: influencifyImg,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Go and Relax PVT LTD",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Led the full stack development of the Gorex digital fleet card platform, covering web and mobile applications. Built and optimized APIs to support mobile app functionality, provided backend guidance, and mentored junior developersacross the team. Delivered key improvements to the performance, security, and scalability of 4 dashboards (Corporate,Fuel Station, OMC, Admin).",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: gorexImg,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+    name: "ProcurementLeague",
+    description:"ProcurementLeague is a web application that streamlines course registration, student management, and RFQ (Request for Quotation) handling. It enables students to register for courses, manage purchases, and receive rewards based on RFQ outcomes. The platform ensures a seamless experience for both students and administrators, optimizing procurement and educational workflows while facilitating efficient contract management.",
+        tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restApi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: precurementImg,
     sourceCodeLink: "https://github.com/",
   },
 ];

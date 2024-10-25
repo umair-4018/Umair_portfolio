@@ -22,13 +22,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import gorex from "./company/gorex.png";
+import kinectro from "./company/kinectro.png";
+import bjs from "./company/bjs.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import influencifyImg from "./Influencify-image.png";
+import gorexImg from "./gorex-img.jpg";
+import precurementImg from "./precurment-img.png";
 
 export {
   logo,
@@ -53,10 +53,10 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  gorex,
+  kinectro,
+  bjs,
+  influencifyImg,
+  gorexImg,
+  precurementImg,
 };
