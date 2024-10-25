@@ -8,9 +8,7 @@ import type {
 } from "../types";
 
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -24,14 +22,12 @@ import {
   git,
   figma,
   docker,
-  meta,
   kinectro,
   bjs,
   gorex,
   influencifyImg,
   gorexImg,
   precurementImg,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -169,27 +165,24 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Collaborating with Mr. Umair has been a great experience. His enthusiasm and commitment make him a valued team player. He consistently demonstrates strong problem-solving skills and a keen adaptability to modern technologies, making him an outstanding software developer.", name: "Umair Khalid",
+    designation: "Senior Software Engineer",
+    company: "NINE ALPHA GLOBAL COMPUTING PVT LTD (INTAGLEO) ",
+    image: "https://media.licdn.com/dms/image/v2/D4E35AQE_wGmyFNLduw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719440434040?e=1730451600&v=beta&t=0M34F6-fRpjYyR2SCqH-FkzqsJlRyRReOudUF79ijlM",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "I have worked with Umair for the past 2 years, collaborating on numerous projects. His technical expertise and problem-solving skills are exceptional, always offering multiple solutions to challenges. What truly sets him apart is his ability to enhance the productivity of the entire team, making him an invaluable asset.",
+    name: "Ahsan Khan",
+    designation: "Senior Software Engineer",
+    company: "Kinectro Technology",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFfpimyoLX1cg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703571563223?e=1735171200&v=beta&t=7gxl_svwyrY5B2i_f1jXjQSkRG49ZhSFoICkdo-9O18",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    testimonial:"Working with Mr. Umair has been a rewarding experience. His attention to detail, combined with his ability to tackle complex problems, showcases his expertise as a developer. He is proactive, reliable, and consistently delivers high-quality solutions, making him an integral part of any team.",
+    name: "Muhammad Dayaan",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "DSME Global Links",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQGpDM4kG-305g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1632606587984?e=1735171200&v=beta&t=UmSuRw9M8ODBny9_Aiyh2dCv-MONh5TX-5kpWZhX704",
   },
 ];
 
@@ -238,8 +231,8 @@ const projects: TProject[] = [
   },
   {
     name: "ProcurementLeague",
-    description:"ProcurementLeague is a web application that streamlines course registration, student management, and RFQ (Request for Quotation) handling. It enables students to register for courses, manage purchases, and receive rewards based on RFQ outcomes. The platform ensures a seamless experience for both students and administrators, optimizing procurement and educational workflows while facilitating efficient contract management.",
-        tags: [
+    description: "ProcurementLeague is a web application that streamlines course registration, student management, and RFQ (Request for Quotation) handling. It enables students to register for courses, manage purchases, and receive rewards based on RFQ outcomes. The platform ensures a seamless experience for both students and administrators, optimizing procurement and educational workflows while facilitating efficient contract management.",
+    tags: [
       {
         name: "react",
         color: "blue-text-gradient",
